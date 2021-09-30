@@ -46,9 +46,9 @@ const Home = () => (
     <NavHeader />
 
     <div className='hero'>
-      <h1 className='title'>Welcome to React Suite</h1>
+      <h1 className='title'>About Company</h1>
       <p className='description'>
-        A suite of React components, intimate UI design, and a friendly development experience.
+        This is the about "page".
         <br />
       </p>
       <Button appearance='primary' href='https://rsuitejs.com/'>
