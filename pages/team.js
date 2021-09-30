@@ -1,9 +1,9 @@
 import Page from 'components/Page'
 
-export default function PageIndex () {
+export default function PageTeam () {
   return (
     <Page>
-      <h1>HOME</h1>
+      <h1>TEAM</h1>
     </Page>
   )
 }
