@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import { Button, Nav, Dropdown, Breadcrumb } from 'rsuite'
 import 'rsuite/styles/index.less'
 
-const NavLink = React.forwardRef((props, ref) => {
+export const NavLink = React.forwardRef((props, ref) => {
   const { as, href, ...rest } = props
   return (
     <Link href={href} as={as}>
@@ -15,6 +15,7 @@ const NavLink = React.forwardRef((props, ref) => {
   )
 })
 
+// track active
 export function wrap (Component) {
   return props => {
     const router = useRouter()
